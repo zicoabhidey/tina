@@ -1,0 +1,18 @@
+{
+  "name": "tinacms-github-pages-site",
+  "version": "1.0.0",
+  "description": "A site using TinaCMS deployed to GitHub Pages",
+  "private": true,
+  "scripts": {
+    "dev": "tinacms dev -c \"vite\"",
+    "build": "tinacms build && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "tinacms": "^1.6.3",
+    "vite": "^5.2.11"
+  },
+  "devDependencies": {
+    "@tinacms/cli": "^1.5.45"
+  }
+}
